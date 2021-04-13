@@ -1,0 +1,66 @@
+[
+	{
+		"title": "Brontë County",
+		"book": "Jane Eyre, Wuthering Heights ...",
+		"author": "Emily, Charlotte and Anne Brontë",
+		"thumb": "brontes-thumb.png",
+		"image": "brontes.png",
+		"positionTop": 30,
+		"positionLeft": 49,
+		"townName": "Haworth, West Yorkshire",
+		"bodyText": "Among the most famous literary families the Brontë sisters wrote some of the most beloved works in literature. The parsonage where they lived with their father and brother is now a museum. The family, with the exception of Anne is buried in the church's vault. The Brontë Waterfall nearby was a favorite site of the sisters."
+	},
+	{
+		"title": "A Romance of Exmoor",
+		"book": "Lorna Doone",
+		"author": "Richard Doddridge Blackmore",
+		"thumb": "lorna-doone-thumb.png",
+		"image": "lorna-doone.png",
+		"positionTop": 77,
+		"positionLeft": 27,
+		"townName":  "Porlock, Somerset",
+		"bodyText": "ajkld ahkld ahjkhdj ajhda. Hhd a oxbs wvs owg abjkbd ga oyega qbdgftu dha vda dha irne iabe."
+	},
+	{
+		"title": "The Bard of Stratford-upon-Avon",
+		"book": "Hamlet, Romeo and Juliet, The Taming of the Shrew ..",
+		"author": "William Shakespeare",
+		"thumb": "shakespeare-thumb.png",
+		"image": "shakespeare.png",
+		"positionTop": 58,
+		"positionLeft": 50,
+		"townName":  "Stratford-upon-Avon, Warwickshire",
+		"bodyText": "ajkld ahkld ahjkhdj ajhda. Hhd a oxbs wvs owg abjkbd ga oyega qbdgftu dha vda dha irne iabe."
+	},
+	{
+		"title": "Wordsworth",
+		"thumb": "wordsworth-thumb.png",
+		"image": "wordsworth.png",
+		"positionTop": 20,
+		"positionLeft": 38,
+		"townName":  "Grassmere, Cumbria",
+		"bodyText": "ajkld ahkld ahjkhdj ajhda. Hhd a oxbs wvs owg abjkbd ga oyega qbdgftu dha vda dha irne iabe."
+	},
+	{
+		"title": "Count Dracula Arrives in England",
+		"book": "Dracula",
+		"author": "Bram Stoker",
+		"thumb": "dracula-thumb.png",
+		"image": "dracula.png",
+		"positionTop": 22,
+		"positionLeft": 60,
+		"townName":  "Whitby, Yorkshire",
+		"bodyText": "The ruins of Whitby Abbey stand on the cliff of above the town of Whitby overlooking the North Sea. Inspired by its gothic atmosphere when he visited in 1890, Bram Stocker set parts of his novel around the area. His Count Dracula comes to Whitby when he first arrives in England."
+	},
+	{
+		"title": "Romance in the English Civil War",
+		"book": "Peveril of the Peak",
+		"author": "Sir Walter Scott",
+		"thumb": "peveril-peak-thumb.png",
+		"image": "peveril-peak.png",
+		"positionTop": 37,
+		"positionLeft": 52,
+		"townName":  "Castleton, Derbyshire.",
+		"bodyText": "ajkld ahkld ahjkhdj ajhda. Hhd a oxbs wvs owg abjkbd ga oyega qbdgftu dha vda dha irne iabe."
+	}
+]

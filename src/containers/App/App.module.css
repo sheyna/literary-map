@@ -1,0 +1,11 @@
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  flex: 2 0 auto;
+}
+
+@media screen and (min-width: 1025px) {
+  .mainBody {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,22 @@
+.MapLocationPoint {
+	width: 2rem;
+	z-index: 50;
+	position: absolute;
+}
+.MapLocationPoint img {
+	width: 100%;
+}
+.MapLocationPoint:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media screen and (min-width: 380px) {
+	.MapLocationPoint {
+		width: 3rem;
+	}
+}
+@media screen and (min-width: 1025px) {
+	.MapLocationPoint {
+		width: 5rem;
+	}
+}

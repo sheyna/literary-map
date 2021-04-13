@@ -1,0 +1,78 @@
+.SiteHeader {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  width: 100%;
+  background-color: #FEFAF5;
+  height: 6rem;
+}
+
+.title {
+  position: relative;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.SiteHeader menu {
+  margin: 0;
+  padding-inline-start: 1rem;
+}
+
+.SiteHeader h1 {
+  font-family: 'Satisfy', cursive, serif;
+  color: #bd4089;
+  font-size: 2.5rem;
+  line-height: 85%;
+  text-align: center;
+  margin: 0;
+  transform: rotate(-15deg)
+}
+
+.SiteHeader h2 {
+  font-family: 'Bitter', 'Palatino', serif;
+  margin: 0;
+  padding: .5rem;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+  .SiteHeader h1:first-of-type {
+    margin: 2rem auto .3rem;
+  }
+  .SiteHeader h1:nth-of-type(2) {
+    margin: 0 auto 0;
+    padding-left: 5rem;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .SiteHeader h1 {
+    font-size: 3.5rem;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .SiteHeader {
+    height: 3rem;
+  }
+  .SiteHeader h1 {
+    font-size: 11vw;
+    margin-left: 42%;
+  }
+  .SiteHeader h1:first-of-type {
+    margin-top: 5rem;
+    margin-bottom: .8rem
+  }
+  .SiteHeader h1:nth-of-type(2) {
+    padding-left: 12vw;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .SiteHeader h1 {
+    font-size: 12vw;
+    margin-left: 38%;
+  }
+}

@@ -1,0 +1,65 @@
+.InfoBox {
+	background-color: #FEFAF5;
+	margin: 0 0 3rem 0;
+	padding: .8rem;
+	position: relative;
+}
+
+.InfoBox h3 {
+	margin: 0 0 .2rem;
+}
+
+.InfoBox p {
+	margin: 0 0 .6rem;
+}
+.InfoBox p span {
+	font-weight: 600;
+	padding-right: .5rem;
+}
+
+.infoBoxLayout {
+	display: flex;
+	width: 100%;
+	margin: 1rem 0 0;
+	flex-direction: column;
+}
+
+.infoBoxLayout > div:nth-of-type(2) {
+	padding-left: 1rem;
+}
+.infoBoxLayout > div:first-of-type {
+	flex: 0 0 15rem;
+}
+
+.infoBoxLayout img {
+	width: 100%;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: .8rem;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 760px) {
+	.infoBoxLayout {
+		flex-direction: row;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1449px) {
+	.InfoBox {
+		margin: 2rem 10% 3rem 0;
+	}
+	.infoBoxLayout > div:first-of-type {
+		flex: 0 0 8rem;
+	}
+}
+
+@media screen and (min-width: 1450px) {
+	.InfoBox {
+		margin-top: 0rem;
+	}
+}

@@ -1,0 +1,26 @@
+.SiteFooter {
+	background-color: #683257;
+	color: #F2E9DF;
+	padding: 1rem;
+	bottom: 0;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.SiteFooter p {
+	margin: 0;
+}
+
+.SiteFooter a {
+	color: #F2E9DF;
+}
+.SiteFooter a:visited {
+	color: #F2E9DF;
+}
+
+@media screen and (min-width: 1025px) {
+	.SiteFooter {
+		width: 100%;
+		padding: 1rem 6rem;
+	}
+}
