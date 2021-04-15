@@ -11,12 +11,6 @@ body {
   flex-direction: column;
 }
 
-/*html, body {
-  height: 100%;
-}
-//
-*/
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -24,4 +18,5 @@ code {
 
 #root {
 	overflow: hidden;
+  min-height: 100%;
 }

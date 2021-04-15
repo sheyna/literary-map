@@ -1,8 +1,11 @@
 .InfoBox {
 	background-color: #FEFAF5;
-	margin: 0 0 3rem 0;
 	padding: .8rem;
-	position: relative;
+	position: absolute;
+	top: 9rem;
+	left: 7%;
+	z-index: 999;
+	width: 80%;
 }
 
 .InfoBox h3 {
@@ -24,11 +27,11 @@
 	flex-direction: column;
 }
 
-.infoBoxLayout > div:nth-of-type(2) {
+.infoBoxLayout .infoBoxImg + .infoBoxText {
 	padding-left: 1rem;
 }
-.infoBoxLayout > div:first-of-type {
-	flex: 0 0 15rem;
+.infoBoxLayout .infoBoxImg {
+	flex: 0 0 auto;
 }
 
 .infoBoxLayout img {
@@ -43,23 +46,48 @@
 	cursor: pointer;
 }
 
+@media screen and (min-width: 380px) {
+	.InfoBox {
+		top: 12rem;
+	}
+}
+
 @media screen and (min-width: 760px) {
 	.infoBoxLayout {
 		flex-direction: row;
 	}
+	.infoBoxLayout .infoBoxImg {
+		flex: 0 0 15rem;
+	}
+	.InfoBox {
+		margin: 0 0 3rem 0;
+		position: fixed;
+		bottom: 2rem;
+		left: 10%;
+		width: 80%;
+		top: auto;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.InfoBox {
+		margin: 2rem 0 3rem 0;
+		width: 90%;
+		position: relative;
+		bottom: auto;
+		left: auto;
+	}
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1449px) {
-	.InfoBox {
-		margin: 2rem 10% 3rem 0;
-	}
-	.infoBoxLayout > div:first-of-type {
+	.infoBoxLayout .infoBoxImg {
 		flex: 0 0 8rem;
 	}
 }
 
 @media screen and (min-width: 1450px) {
 	.InfoBox {
-		margin-top: 0rem;
+		margin: 0 0 3rem;
+		width: 100%;
 	}
 }

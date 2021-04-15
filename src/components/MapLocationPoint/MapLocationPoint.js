@@ -15,7 +15,7 @@ function MapLocationPoint(props) {
 				props.openInfoBox(true, location);
 			}}
 		>
-			<img src={"img/" + thumb} alt={title}/>
+			{ thumb ? <img src={"img/" + thumb} alt={title}/> : <i class="fas fa-thumbtack"></i> }
 		</div>
 	);
 }

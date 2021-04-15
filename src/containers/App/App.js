@@ -6,7 +6,7 @@ import EnglandMap from '../../views/EnglandMap/EnglandMap';
 function App() {
 
   return (
-    <div className="App">
+    <div className={styles.App}>
       <SiteHeader />
       <main className={styles.mainBody}>
       <EnglandMap />

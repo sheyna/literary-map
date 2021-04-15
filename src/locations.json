@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Brontë County",
+		"title": "Brontë Country",
 		"book": "Jane Eyre, Wuthering Heights ...",
 		"author": "Emily, Charlotte and Anne Brontë",
 		"thumb": "brontes-thumb.png",
@@ -33,13 +33,15 @@
 		"bodyText": "ajkld ahkld ahjkhdj ajhda. Hhd a oxbs wvs owg abjkbd ga oyega qbdgftu dha vda dha irne iabe."
 	},
 	{
-		"title": "Wordsworth",
+		"title": "William Wordsworth's home",
+		"book": "The Prelude, Ode: Intimations of Immortality, Ode to Duty, My Heart Leaps Up",
+		"author": "William Wordsworth",
 		"thumb": "wordsworth-thumb.png",
 		"image": "wordsworth.png",
 		"positionTop": 20,
 		"positionLeft": 38,
 		"townName":  "Grassmere, Cumbria",
-		"bodyText": "ajkld ahkld ahjkhdj ajhda. Hhd a oxbs wvs owg abjkbd ga oyega qbdgftu dha vda dha irne iabe."
+		"bodyText": "Wordsworth wrote much of the poetry for which he is known as Dove Cottage near Grasmere. He lived here for 8 years with his sister, from 1799 to 1808."
 	},
 	{
 		"title": "Count Dracula Arrives in England",
@@ -60,7 +62,34 @@
 		"image": "peveril-peak.png",
 		"positionTop": 37,
 		"positionLeft": 52,
-		"townName":  "Castleton, Derbyshire.",
-		"bodyText": "ajkld ahkld ahjkhdj ajhda. Hhd a oxbs wvs owg abjkbd ga oyega qbdgftu dha vda dha irne iabe."
+		"townName":  "Castleton, Derbyshire",
+		"bodyText": "Now a ruins, this 11th-century castle, became the setting of one of Sir Walter Scott's Waverley novels (a series that includes Ivanhoe)."
+	},
+	{
+		"title": "Visit's Gaskell's Cranford",
+		"book": "Cranford",
+		"author": "Elizabeth Gaskell",
+		"positionTop": 40,
+		"positionLeft": 46,
+		"townName":  "Knutsford, Cheshire",
+		"bodyText": "Elizabeth Gaskell's charming portrait of village life in the 19th century was based on her own childhood home of Knutsford."
+	},
+	{
+		"title": "Elizabeth Gaskell's Home",
+		"book": "Mary Barton, North and South, Cranford, Wives and Daughters",
+		"author": "Elizabeth Gaskell",
+		"positionTop": 38,
+		"positionLeft": 48,
+		"townName":  "Manchester",
+		"bodyText": "Gaskell's historic home was restored in 2014. It is now a museum to the author and her times."
+	},
+	{
+		"title": "Jane Austen's Home",
+		"book": "Pride and Prejudice, Sense and Sensiblity, Emma, Persuasion",
+		"author": "Jane Austen",
+		"positionTop": 78,
+		"positionLeft": 62,
+		"townName":  "Chawton, Hampshire",
+		"bodyText": "Jane Austen spent the last eight years of her life at this home that is now a museum."
 	}
 ]

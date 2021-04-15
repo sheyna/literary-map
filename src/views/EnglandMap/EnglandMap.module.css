@@ -1,14 +1,12 @@
 .mapElement {
   left: 0;
   width: 100%;
-  max-width: 800px;
   position: relative;
 }
 
 .pageContents {
   display: block;
-  position: relative;
-  z-index: 20;
+  position: static;
   width: 80%;
   margin: 0 auto;
 }
@@ -19,15 +17,26 @@
   }
 }
 
+@media screen and (min-width: 760px) {
+  .pageContents {
+    position: relative;
+  }
+  .mapElement {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 1025px) {
   .mapElement {
     width: 70%;
     display: inline-block;
+    max-width: 800px;
   }
   .pageContents {
+    box-sizing: border-box;
     display: inline-block;
-    width: 50%;
-    margin-top: 30vw;
+    width: 40%;
+    margin: 30vw 0 0 0;
   }
   .introText {
     margin-right: 10%;
@@ -37,5 +46,6 @@
 @media screen and (min-width: 1450px) {
   .pageContents {
     margin-top: 35vw;
+    width: 45%;
   }
 }

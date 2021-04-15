@@ -12,13 +12,15 @@ function InfoBox(props) {
 					props.openInfoBox(false, {});
 				}}
 			>
-				X
+				<i class="fas fa-times"></i>
 			</div>
 			<div className={styles.infoBoxLayout}>
-				<div>
-					<img src={"img/" + infoBoxLocation.image} alt={infoBoxLocation.title}/>
-				</div>
-				<div>
+				{ infoBoxLocation.image &&
+					<div className={styles.infoBoxImg}>
+						<img src={"img/" + infoBoxLocation.image} alt={infoBoxLocation.title}/>
+					</div>
+				}
+				<div className={styles.infoBoxText}>
 					<p>{infoBoxLocation.bodyText}</p>
 					<p><span>Author(s):</span> {infoBoxLocation.author}</p>
 					<p><span>Literary work(s):</span> {infoBoxLocation.book}</p>
