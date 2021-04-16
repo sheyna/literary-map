@@ -7,7 +7,7 @@
 }
 .MapLocationPoint i {
 	color: #bd4089;
-	font-size: 1.4rem;
+	font-size: .8rem;
 }
 .MapLocationPoint i:hover {
 	opacity: 0.6;
@@ -15,17 +15,17 @@
 	transform-origin: bottom;
 }
 .MapLocationPoint img {
-	width: 2rem;
-	width: 100%;
+	width: 8vw;
 }
 .MapLocationPoint img:hover {
 	transform: scale(1.1);
 }
-@media screen and (min-width: 380px) {
-	.MapLocationPoint {
-		width: 3rem;
+@media screen and (min-width: 640px) {
+	.MapLocationPoint i {
+		font-size: 1.4rem;
 	}
 }
+
 @media screen and (min-width: 1025px) {
 	.MapLocationPoint img {
 		width: 5rem;

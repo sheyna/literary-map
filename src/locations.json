@@ -19,7 +19,7 @@
 		"positionTop": 77,
 		"positionLeft": 27,
 		"townName":  "Porlock, Somerset",
-		"bodyText": "ajkld ahkld ahjkhdj ajhda. Hhd a oxbs wvs owg abjkbd ga oyega qbdgftu dha vda dha irne iabe."
+		"bodyText": "Porlock and Dulverton are the center of Lorna Doone Country. The Ship Inn in Portlock was well known to Coleridge, Wordsworth and Southery."
 	},
 	{
 		"title": "The Bard of Stratford-upon-Avon",
@@ -30,7 +30,7 @@
 		"positionTop": 58,
 		"positionLeft": 50,
 		"townName":  "Stratford-upon-Avon, Warwickshire",
-		"bodyText": "ajkld ahkld ahjkhdj ajhda. Hhd a oxbs wvs owg abjkbd ga oyega qbdgftu dha vda dha irne iabe."
+		"bodyText": "Xxxx."
 	},
 	{
 		"title": "William Wordsworth's home",
@@ -53,6 +53,17 @@
 		"positionLeft": 60,
 		"townName":  "Whitby, Yorkshire",
 		"bodyText": "The ruins of Whitby Abbey stand on the cliff of above the town of Whitby overlooking the North Sea. Inspired by its gothic atmosphere when he visited in 1890, Bram Stocker set parts of his novel around the area. His Count Dracula comes to Whitby when he first arrives in England."
+	},
+	{
+		"title": "London's Writers' Block",
+		"book": "numerous",
+		"author": "Henry James, Erskine Childers, T. S. Eliot, Somerset Maugham, Ian Fleming, George Elliot, Bram Stoker, Elizabeth Gaskell...",
+		"thumb": "cheyne-thumb.png",
+		"image": "cheyne.png",
+		"positionTop":72,
+		"positionLeft": 70,
+		"townName":  "Cheyne Row, Chelsea, London",
+		"bodyText": "This historic London street has been home to numerous authors. At two blocks in length it can claim a lot of prominent former residents in such a small space. The Carlyle Mansions (number 24) there have been nicknamed the 'Writers’ Block,' as it has been home to Henry James, Erskine Childers, T. S. Eliot, Somerset Maugham, Ian Fleming and other noted authors. Other authors have lived near by. George Elliot spent the last three weeks of her life at number 4. Bram Stoker lived at number 27. And Elizabeth Gaskell was born at number 93."
 	},
 	{
 		"title": "Romance in the English Civil War",
@@ -91,5 +102,14 @@
 		"positionLeft": 62,
 		"townName":  "Chawton, Hampshire",
 		"bodyText": "Jane Austen spent the last eight years of her life at this home that is now a museum."
+	},
+	{
+		"title": "Tolkien's Old Forest",
+		"book": "Lord of the Rings",
+		"author": "J.R.R. Rolkien",
+		"positionTop": 55,
+		"positionLeft": 49,
+		"townName":  "Moseley, xxx",
+		"bodyText": "Moseley Bog is a woodland park in Moseley near Birmingham. J.R.R. Tolkien lived nearby as a boy. It is believed to have inpired the Old Forest in Middle Earth."
 	}
 ]

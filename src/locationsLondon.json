@@ -1,0 +1,33 @@
+[
+	{
+		"title": "London's Writers' Block",
+		"book": "numerous",
+		"author": "Henry James, Erskine Childers, T. S. Eliot, Somerset Maugham, Ian Fleming, George Elliot, Bram Stoker, Elizabeth Gaskell...",
+		"thumb": "cheyne-thumb.png",
+		"image": "cheyne.png",
+		"positionTop":74,
+		"positionLeft": 68,
+		"townName":  "Cheyne Row, Chelsea, London",
+		"bodyText": "This historic London street has been home to numerous authors. At two blocks in length it can claim a lot of prominent former residents in such a small space. The Carlyle Mansions (number 24) there have been nicknamed the 'Writers’ Block,' as it has been home to Henry James, Erskine Childers, T. S. Eliot, Somerset Maugham, Ian Fleming and other noted authors. Other authors have lived near by. George Elliot spent the last three weeks of her life at number 4. Bram Stoker lived at number 27. And Elizabeth Gaskell was born at number 93."
+	},
+	{
+		"title": "Hamstead",
+		"book": "xxx",
+		"author": "xxx",
+		"thumb": "hamstead-thumb.png",
+		"image": "hamstead.png",
+		"positionTop":68,
+		"positionLeft": 67,
+		"townName":  "London",
+		"bodyText": "xxxhew."
+	},
+	{
+		"title": "Platform 9 3/4",
+		"book": "Harry Potter",
+		"author": "J.K. Rowling",
+		"positionTop":72,
+		"positionLeft": 73,
+		"townName":  "King's Cross, London",
+		"bodyText": "Xxxxx."
+	}
+]
