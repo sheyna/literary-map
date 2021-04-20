@@ -30,7 +30,7 @@
 		"positionTop": 58,
 		"positionLeft": 50,
 		"townName":  "Stratford-upon-Avon, Warwickshire",
-		"bodyText": "Xxxx."
+		"bodyText": "Widely belived to be the greatest writer in the English language, William Shakespeare wrote some 39 plays, 154 sonnets and three long narrative poems. The building believed to be his birthplace is a museaum. His wife Anne Hathaway's home is nearby. "
 	},
 	{
 		"title": "William Wordsworth's home",
@@ -63,7 +63,7 @@
 		"positionTop":72,
 		"positionLeft": 70,
 		"townName":  "Cheyne Row, Chelsea, London",
-		"bodyText": "This historic London street has been home to numerous authors. At two blocks in length it can claim a lot of prominent former residents in such a small space. The Carlyle Mansions (number 24) there have been nicknamed the 'Writers’ Block,' as it has been home to Henry James, Erskine Childers, T. S. Eliot, Somerset Maugham, Ian Fleming and other noted authors. Other authors have lived near by. George Elliot spent the last three weeks of her life at number 4. Bram Stoker lived at number 27. And Elizabeth Gaskell was born at number 93."
+		"bodyText": "This historic London 2-block street has been home to numerous authors. The Carlyle Mansions (number 24) has been nicknamed the 'Writers’ Block,' as it has been home to Henry James, Erskine Childers, T. S. Eliot, Somerset Maugham, Ian Fleming and other noted authors. Other authors have lived near by. George Elliot spent the last three weeks of her life at number 4. Bram Stoker lived at number 27. And Elizabeth Gaskell was born at number 93."
 	},
 	{
 		"title": "Romance in the English Civil War",
@@ -106,10 +106,55 @@
 	{
 		"title": "Tolkien's Old Forest",
 		"book": "Lord of the Rings",
-		"author": "J.R.R. Rolkien",
+		"author": "J.R.R. Tolkien",
 		"positionTop": 55,
 		"positionLeft": 49,
-		"townName":  "Moseley, xxx",
+		"townName":  "Moseley, Worcestershire",
 		"bodyText": "Moseley Bog is a woodland park in Moseley near Birmingham. J.R.R. Tolkien lived nearby as a boy. It is believed to have inpired the Old Forest in Middle Earth."
+	},
+	{
+		"title": "Birthplace of Charles Dickens",
+		"book": "Great Expectations, David Copperfield, Oliver Twist, A Tale of Two Cities ...",
+		"author": "Charles Dickens",
+		"positionTop": 83,
+		"positionLeft": 62,
+		"townName":  "Landport, Portsmouth, Hampshire",
+		"bodyText": "The house where the famed novelist was born is now a museum. It is furnished in the Regency style popular at the time of his birth iin 1812."
+	},
+	{
+		"title": "Hardy's Cottage",
+		"book": "Far from the Madding Crowd, The Mayor of Casterbridge, Tess of the d'Urbervilles, and Jude the Obscure ",
+		"author": "Thomas Hardy",
+		"positionTop": 85,
+		"positionLeft": 45,
+		"townName":  "Dorchester, Dorset",
+		"bodyText": "Thomas Hardy was born in a cottage outside Dorchester. He would later fictionalize Dorchester as the town of Casterbridge in his novel 'The Mayor of Casterbridge.' Hardy set most of his writing in a county he called Wessex. Hardy's Wessex encompassed the counties of Dorset, Wiltshire, Somerset, Devon, Hampshire and much of Berkshire."
+	},
+	{
+		"title": "Jamaica Inn",
+		"book": "Jamaica Inn",
+		"author": "Daphne du Maurier",
+		"positionTop": 87,
+		"positionLeft": 17,
+		"townName":  "Bolventor, Cornwall",
+		"bodyText": "Daphne du Maurier made this inn from 1750 famous in her 1936 novel of the same name. The inn has a historical association with smuggling."
+	},
+	{
+		"title": "The Curious Incident in Swindon",
+		"book": "The Curious Incident of the Dog in the Night-Time",
+		"author": "Mark Haddon",
+		"positionTop": 70,
+		"positionLeft": 53,
+		"townName":  "Swindon, Wiltshire",
+		"bodyText": "Christopher, the main character in 'The Curious Incident of the Dog in the Night-Time,' lives in Swindon."
+	},
+	{
+		"title": "Where did Louisa Musgrove fall?",
+		"book": "Persuasion",
+		"author": "Jane Austen",
+		"positionTop": 85,
+		"positionLeft": 39,
+		"townName":  "The Cobb, Lyme Regis, Dorset",
+		"bodyText": "Jane Austen sent her characters in her novel 'Persuasion' to Lyme to visit friends. It is there that the character Louisa Musgrove is injured after a fall at The Cobb."
 	}
 ]
