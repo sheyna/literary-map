@@ -30,7 +30,7 @@
 		"positionTop": 58,
 		"positionLeft": 50,
 		"townName":  "Stratford-upon-Avon, Warwickshire",
-		"bodyText": "Widely belived to be the greatest writer in the English language, William Shakespeare wrote some 39 plays, 154 sonnets and three long narrative poems. The building believed to be his birthplace is a museaum. His wife Anne Hathaway's home is nearby. "
+		"bodyText": "Widely believed to be the greatest writer in the English language, William Shakespeare wrote some 39 plays, 154 sonnets and three long narrative poems. The building believed to be his birthplace is a museum. His wife Anne Hathaway's home is nearby. "
 	},
 	{
 		"title": "William Wordsworth's home",
@@ -96,7 +96,7 @@
 	},
 	{
 		"title": "Jane Austen's Home",
-		"book": "Pride and Prejudice, Sense and Sensiblity, Emma, Persuasion",
+		"book": "Pride and Prejudice, Sense and Sensibility, Emma, Persuasion",
 		"author": "Jane Austen",
 		"positionTop": 78,
 		"positionLeft": 62,
