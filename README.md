@@ -1,3 +1,8 @@
+# literary-map
+An interactive map showing literary locations in England. Project built in React
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

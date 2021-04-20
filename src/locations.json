@@ -110,7 +110,7 @@
 		"positionTop": 55,
 		"positionLeft": 49,
 		"townName":  "Moseley, Worcestershire",
-		"bodyText": "Moseley Bog is a woodland park in Moseley near Birmingham. J.R.R. Tolkien lived nearby as a boy. It is believed to have inpired the Old Forest in Middle Earth."
+		"bodyText": "Moseley Bog is a woodland park in Moseley near Birmingham. J.R.R. Tolkien lived nearby as a boy. It is believed to have inspired the Old Forest in Middle Earth."
 	},
 	{
 		"title": "Birthplace of Charles Dickens",
@@ -156,5 +156,14 @@
 		"positionLeft": 39,
 		"townName":  "The Cobb, Lyme Regis, Dorset",
 		"bodyText": "Jane Austen sent her characters in her novel 'Persuasion' to Lyme to visit friends. It is there that the character Louisa Musgrove is injured after a fall at The Cobb."
+	},
+	{
+		"title": "Deep in the Hundred Acre Wood",
+		"book": " Winnie-the-Pooh and The House at Pooh Corner",
+		"author": "A.A. Milne",
+		"positionTop": 80,
+		"positionLeft": 75,
+		"townName":  "Five Hundred Acre Wood, Ashdown Forest, Hartfield, East Sussex",
+		"bodyText": "From A.A. Milne's country home near Hartfield, the nearby Five Hundred Acre Wood would serve as the inspiration for the fictional wood inhabited by Winnie the Pooh and his friends. Many features from the stories can be found in this forest. An interpretive trail provides insights into this classic story."
 	}
 ]
