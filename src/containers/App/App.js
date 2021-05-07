@@ -9,7 +9,7 @@ function App() {
     <div className={styles.App}>
       <SiteHeader />
       <main className={styles.mainBody}>
-      <EnglandMap />
+      	<EnglandMap />
       </main>
       <SiteFooter />
     </div>
@@ -18,6 +18,3 @@ function App() {
 }
 
 export default App;
-
-
-

@@ -1,6 +1,7 @@
 import mapOfEngland from './map-of-england.svg';
 import MapLocationPoint from '../MapLocationPoint/MapLocationPoint';
 import styles from "./MapElement.module.css";
+import PropTypes from 'prop-types';
 
 function MapElement(props) {
 	const {locations} = props;
@@ -20,5 +21,9 @@ function MapElement(props) {
 	);
 }
 
+MapElement.propTypes = {
+	locations: PropTypes.arrayOf(PropTypes.shape),
+	openInfoBox: PropTypes.func,
+};
 
 export default MapElement;

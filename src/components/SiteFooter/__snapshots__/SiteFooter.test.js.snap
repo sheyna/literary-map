@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SiteFooter component should match snapshot 1`] = `
+<footer
+  className="SiteFooter"
+>
+  <p>
+    A project by Sheyna Watkins. Map icon images courtey 
+    <a
+      href="https://www.davidrumsey.com/about/copyright-and-permissions"
+      rel="noreferrer"
+      target="_blank"
+    >
+      David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries
+    </a>
+  </p>
+</footer>
+`;

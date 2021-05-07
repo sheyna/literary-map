@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapElement component should match snapshot 1`] = `
+<div
+  className="MapLocationPoint"
+  onClick={[Function]}
+  style={
+    Object {
+      "left": "49%",
+      "top": "30%",
+    }
+  }
+>
+  <img
+    alt="Brontë Country"
+    src="img/brontes-thumb.png"
+  />
+</div>
+`;

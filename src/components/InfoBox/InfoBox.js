@@ -1,4 +1,5 @@
 import styles from './InfoBox.module.css';
+import PropTypes from 'prop-types';
 
 function InfoBox(props) {
 	const {infoBoxLocation} = props;
@@ -29,5 +30,20 @@ function InfoBox(props) {
 		</section>
 	)
 }
+
+InfoBox.propTypes = {
+	infoBoxLocation: PropTypes.shape({
+		title: PropTypes.string,
+		book: PropTypes.string,
+		author: PropTypes.string,
+		thumb: PropTypes.string,
+		image: PropTypes.string,
+		positionTop: PropTypes.number,
+		positionLeft: PropTypes.number,
+		townName: PropTypes.string,
+		bodyText: PropTypes.string,
+	}),
+	openInfoBox: PropTypes.bool,
+};
 
 export default InfoBox;

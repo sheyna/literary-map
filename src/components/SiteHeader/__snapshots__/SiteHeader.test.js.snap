@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SiteHeader component should match snapshot 1`] = `
+<header
+  className="SiteHeader"
+>
+  <div
+    className="title"
+  >
+    <h1>
+      Literary Map
+    </h1>
+    <h1>
+      of England
+    </h1>
+  </div>
+</header>
+`;

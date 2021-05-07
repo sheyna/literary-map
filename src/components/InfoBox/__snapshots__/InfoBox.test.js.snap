@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoBox component should match snapshot 1`] = `
+<section
+  className="InfoBox"
+>
+  <h3>
+    Brontë Country
+  </h3>
+  <p>
+    Haworth, West Yorkshire
+  </p>
+  <div
+    className="close"
+    onClick={[Function]}
+  >
+    <i
+      class="fas fa-times"
+    />
+  </div>
+  <div
+    className="infoBoxLayout"
+  >
+    <div
+      className="infoBoxImg"
+    >
+      <img
+        alt="Brontë Country"
+        src="img/brontes.png"
+      />
+    </div>
+    <div
+      className="infoBoxText"
+    >
+      <p>
+        Among the most famous literary families the Brontë sisters wrote some of the most beloved works in literature. The parsonage where they lived with their father and brother is now a museum. The family, with the exception of Anne is buried in the church's vault. The Brontë Waterfall nearby was a favorite site of the sisters.
+      </p>
+      <p>
+        <span>
+          Author(s):
+        </span>
+         
+        Emily, Charlotte and Anne Brontë
+      </p>
+      <p>
+        <span>
+          Literary work(s):
+        </span>
+         
+        Jane Eyre, Wuthering Heights ...
+      </p>
+    </div>
+  </div>
+</section>
+`;
