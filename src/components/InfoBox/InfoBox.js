@@ -43,7 +43,7 @@ InfoBox.propTypes = {
 		townName: PropTypes.string,
 		bodyText: PropTypes.string,
 	}),
-	openInfoBox: PropTypes.bool,
+	openInfoBox: PropTypes.func,
 };
 
 export default InfoBox;
