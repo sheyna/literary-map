@@ -1,3 +1,20 @@
+@keyframes loadBox {
+	0% {height: 4rem;}
+	66% {height: 60%;}
+	100% {height: auto;}
+}
+
+@keyframes loadBoxMobile {
+	0% {height: 4rem;}
+	66% {height: 12%;}
+	100% {height: auto;}
+}
+
+@keyframes slowDisplay {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
 .InfoBox {
 	background-color: #FEFAF5;
 	padding: .8rem;
@@ -26,6 +43,8 @@
 	width: 100%;
 	margin: 1rem 0 0;
 	flex-direction: column;
+	animation-name: slowDisplay;
+  	animation-duration: 4s;
 }
 
 .infoBoxLayout .infoBoxImg + .infoBoxText {
@@ -50,6 +69,8 @@
 @media screen and (min-width: 380px) {
 	.InfoBox {
 		top: 12rem;
+		animation-name: loadBox;
+  		animation-duration: 0.5s;
 	}
 }
 
@@ -67,6 +88,8 @@
 		left: 10%;
 		width: 80%;
 		top: auto;
+		animation-name: loadBoxMobile;
+  		animation-duration: 0.5s;
 	}
 	.InfoBox h3 {
 		font-size: 1.2rem;
@@ -80,6 +103,8 @@
 		position: relative;
 		bottom: auto;
 		left: auto;
+		animation-name: loadBox;
+  		animation-duration: 0.5s;
 	}
 	.infoBoxLayout .infoBoxText {
 		overflow-y: scroll;

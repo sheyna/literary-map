@@ -25,7 +25,7 @@ class EnglandMap extends Component {
 	        </div>
 	        <div className={styles.pageContents}>
 	          {this.state.infoBoxOpen
-	            && <InfoBox infoBoxLocation={this.state.infoBoxLocation} openInfoBox={this.openInfoBox}/> }
+	            && <InfoBox infoBoxLocation={this.state.infoBoxLocation} key={this.state.infoBoxLocation.title} openInfoBox={this.openInfoBox}/> }
 	            <p className={styles.introText}>For such a small county, England has produced hundreds of the great works of literature. From Latin and Anglo-Norman literatures to the early development of the English language, stage plays and the birth of the novel, England has seen many types of great literature.</p>
 	        </div>
 	        </React.Fragment>
