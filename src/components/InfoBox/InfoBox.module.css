@@ -1,6 +1,6 @@
 @keyframes loadBox {
 	0% {height: 4rem;}
-	66% {height: 60%;}
+	66% {height: 40%;}
 	100% {height: auto;}
 }
 
