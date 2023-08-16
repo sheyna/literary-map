@@ -10,15 +10,6 @@
 
 # production
 /build
-yarn-error.log*
-
-# Firebase hosting
-.firebase
-.firebaserc
-firebase-debug.log
-**/firebase-debug.log
-**/.firebase
-**/.firebaserc
 
 # misc
 .DS_Store
@@ -26,7 +17,7 @@ firebase-debug.log
 .env.development.local
 .env.test.local
 .env.production.local
-.idea
 
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
