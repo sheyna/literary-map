@@ -1,8 +1,9 @@
 {
-  "name": "lit-england2",
-  "version": "0.1.0",
+  "name": "lit-england",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@cfaester/enzyme-adapter-react-18": "^0.7.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
