@@ -15,8 +15,8 @@
 .firebase
 .firebaserc
 firebase-debug.log
+.firebase/hosting.*
 **/firebase-debug.log
-**/.firebase
 **/.firebaserc
 
 # misc
