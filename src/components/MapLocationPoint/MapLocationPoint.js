@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationPin } from '@fortawesome/free-solid-svg-icons'; // alt faThumbTack
 import styles from './MapLocationPoint.module.css';
 import PropTypes from 'prop-types';
 
@@ -16,7 +18,7 @@ function MapLocationPoint(props) {
 				props.openInfoBox(true, location);
 			}}
 		>
-			{ thumb ? <img src={"img/" + thumb} alt={title}/> : <i className="fas fa-thumbtack"></i> }
+			{ thumb ? <img src={"img/" + thumb} alt={title}/> : <FontAwesomeIcon className={styles.locationPin} icon={faLocationPin} /> }
 		</div>
 	);
 }
