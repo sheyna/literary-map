@@ -1,8 +1,8 @@
 import styles from './InfoBox.module.css';
 import PropTypes from 'prop-types';
 
-function InfoBox(props) {
-	const {infoBoxLocation} = props;
+function InfoBox({ infoBoxLocation, openInfoBox }) {
+
 	return (
 		<section className={styles.InfoBox}>
 			<h3>{infoBoxLocation.title}</h3>
@@ -10,15 +10,19 @@ function InfoBox(props) {
 			<div 
 				className={styles.close}
 				onClick={() => {
-					props.openInfoBox(false, {});
+					openInfoBox(false, {});
 				}}
 			>
 				<i class="fas fa-times"></i>
 			</div>
 			<div className={styles.infoBoxLayout}>
-				{ infoBoxLocation.image &&
-					<div className={styles.infoBoxImg}>
-						<img src={"img/" + infoBoxLocation.image} alt={infoBoxLocation.title}/>
+				{ 
+					infoBoxLocation.image 
+					&& <div className={styles.infoBoxImg}>
+						<img 
+							src={"img/" + infoBoxLocation.image} 
+							alt={infoBoxLocation.title}
+						/>
 					</div>
 				}
 				<div className={styles.infoBoxText}>

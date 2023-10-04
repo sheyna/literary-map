@@ -1,0 +1,17 @@
+.faIcon {
+  color: gray;
+  padding-right: 1rem;
+}
+
+.List h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.List li > h4 {
+  margin-bottom: .5rem;
+}
+
+.List li > p {
+  margin: .2rem;
+}

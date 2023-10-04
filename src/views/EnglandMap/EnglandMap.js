@@ -1,36 +1,39 @@
-import React, { Component } from 'react';
+import { useState } from 'react';
 import MapElement from '../../components/MapElement/MapElement';
 import InfoBox from '../../components/InfoBox/InfoBox';
 import locations from '../../locations.json';
 import styles from './EnglandMap.module.css';
 
-class EnglandMap extends Component {
-	state = {
-		infoBoxOpen: false,
-		infoBoxLocation: {}
-	}
+function EnglandMap() {
+	const [ infoBoxOpen, setInfoBoxOpen ] = useState(false);
+	const [ infoBoxLocation, setInfoBoxLocation ] = useState({});
 
-	openInfoBox = (infoBoxOpen, infoBoxLocation) => {
-		this.setState({infoBoxOpen, infoBoxLocation});
+	function openInfoBox (open, location) {
+		setInfoBoxOpen(open);
+		setInfoBoxLocation(location);
 	}
 	
-	render () {
-		return (
-			<React.Fragment>
+	return (
+		<>
 			<div className={styles.mapElement}>
-	          <MapElement 
-	            locations={locations} 
-	            openInfoBox={this.openInfoBox}
-	          />
-	        </div>
-	        <div className={styles.pageContents}>
-	          {this.state.infoBoxOpen
-	            && <InfoBox infoBoxLocation={this.state.infoBoxLocation} key={this.state.infoBoxLocation.title} openInfoBox={this.openInfoBox}/> }
-	            <p className={styles.introText}>For such a small county, England has produced hundreds of the great works of literature. From Latin and Anglo-Norman literatures to the early development of the English language, stage plays and the birth of the novel, England has seen many types of great literature.</p>
-	        </div>
-	        </React.Fragment>
-		)
-	}
+				<MapElement 
+					locations={locations} 
+					openInfoBox={openInfoBox}
+				/>
+			</div>
+			<div className={styles.pageContents}>
+				{infoBoxOpen
+					&& <InfoBox 
+						infoBoxLocation={infoBoxLocation} 
+						key={infoBoxLocation.title} 
+						openInfoBox={openInfoBox}
+					/> 
+				}
+				<p className={styles.introText}>For such a small county, England has produced hundreds of the great works of literature. From Latin and Anglo-Norman literatures to the early development of the English language, stage plays and the birth of the novel, England has seen many types of great literature.</p>
+			</div>
+		</>
+	);
+	
 }
 
 export default EnglandMap;
