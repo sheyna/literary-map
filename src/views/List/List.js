@@ -17,7 +17,7 @@ function List({setShowDecorativeTitle}) {
         {
           locations.map((loc, idx) => {
             return (
-              <li>
+              <li key={idx}>
                 <h4>{loc.title}</h4>
                 <p>
                   <FontAwesomeIcon className={styles.faIcon} icon={faPenNib} /> {loc.author}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultPageLayout component should match snapshot 1`] = `
+<main
+  className="defaultPage"
+>
+  <p>
+    child
+  </p>
+</main>
+`;

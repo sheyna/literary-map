@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SiteFooter component should match snapshot 1`] = `
+<section
+  className="About"
+>
+  <h1>
+    About
+  </h1>
+  <p>
+    Take a virtual tour of some of England's literary sites.
+  </p>
+  <p>
+    Probject by Sheyna Watkins
+  </p>
+</section>
+`;

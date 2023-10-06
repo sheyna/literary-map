@@ -29,7 +29,7 @@
 .SiteHeader menu li > a {
   text-decoration: none;
   padding: .5rem;
-  border-bottom: 1rem solid transparent;
+  border-bottom: 0.9rem solid transparent;
 }
 
 .SiteHeader menu a:hover {

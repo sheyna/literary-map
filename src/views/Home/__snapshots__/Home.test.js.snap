@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SiteFooter component should match snapshot 1`] = `
+<main
+  className="mainBody"
+>
+  <div
+    className="mapElement"
+  >
+    <div
+      className="MapElement"
+    >
+      <img
+        alt="Map of England"
+        src="map-of-england.svg"
+      />
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "49%",
+            "top": "30%",
+          }
+        }
+      >
+        <img
+          alt="Brontë Country"
+          src="img/brontes-thumb.png"
+        />
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "27%",
+            "top": "77%",
+          }
+        }
+      >
+        <img
+          alt="A Romance of Exmoor"
+          src="img/lorna-doone-thumb.png"
+        />
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "50%",
+            "top": "58%",
+          }
+        }
+      >
+        <img
+          alt="The Bard of Stratford-upon-Avon"
+          src="img/shakespeare-thumb.png"
+        />
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "38%",
+            "top": "20%",
+          }
+        }
+      >
+        <img
+          alt="William Wordsworth's home"
+          src="img/wordsworth-thumb.png"
+        />
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "60%",
+            "top": "22%",
+          }
+        }
+      >
+        <img
+          alt="Count Dracula Arrives in England"
+          src="img/dracula-thumb.png"
+        />
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "70%",
+            "top": "72%",
+          }
+        }
+      >
+        <img
+          alt="London's Writers' Block"
+          src="img/cheyne-thumb.png"
+        />
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "52%",
+            "top": "37%",
+          }
+        }
+      >
+        <img
+          alt="Romance in the English Civil War"
+          src="img/peveril-peak-thumb.png"
+        />
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "46%",
+            "top": "40%",
+          }
+        }
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-location-pin locationPin"
+          data-icon="location-pin"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "48%",
+            "top": "38%",
+          }
+        }
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-location-pin locationPin"
+          data-icon="location-pin"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "62%",
+            "top": "78%",
+          }
+        }
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-location-pin locationPin"
+          data-icon="location-pin"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "49%",
+            "top": "55%",
+          }
+        }
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-location-pin locationPin"
+          data-icon="location-pin"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "62%",
+            "top": "83%",
+          }
+        }
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-location-pin locationPin"
+          data-icon="location-pin"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "45%",
+            "top": "85%",
+          }
+        }
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-location-pin locationPin"
+          data-icon="location-pin"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "17%",
+            "top": "87%",
+          }
+        }
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-location-pin locationPin"
+          data-icon="location-pin"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "53%",
+            "top": "70%",
+          }
+        }
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-location-pin locationPin"
+          data-icon="location-pin"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "39%",
+            "top": "85%",
+          }
+        }
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-location-pin locationPin"
+          data-icon="location-pin"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="MapLocationPoint"
+        onClick={[Function]}
+        style={
+          Object {
+            "left": "75%",
+            "top": "80%",
+          }
+        }
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-location-pin locationPin"
+          data-icon="location-pin"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="pageContents"
+  >
+    <p
+      className="introText"
+    >
+      For such a small county, England has produced hundreds of the great works of literature. From Latin and Anglo-Norman literatures to the early development of the English language, stage plays and the birth of the novel, England has seen many types of great literature.
+    </p>
+  </div>
+</main>
+`;

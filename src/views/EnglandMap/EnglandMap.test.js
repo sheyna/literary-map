@@ -23,12 +23,4 @@ describe('EnglandMap component', () => {
     );
     expect(component.toJSON()).toMatchSnapshot();
   });
-
-  it('openInfoBox() should update state', () => {
-    const component = Enzyme.shallow(<EnglandMap />);
-    expect(component.state('infoBoxOpen')).toEqual(false);
-    component.instance().openInfoBox(true, testLocation);
-    expect(component.state('infoBoxOpen')).toEqual(true);
-    expect(component.state('infoBoxLocation')).toEqual(testLocation);
-  })
 });

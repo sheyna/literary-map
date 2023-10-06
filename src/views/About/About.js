@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import styles from './About.module.css';
 
 function About({setShowDecorativeTitle}) {
 
@@ -7,9 +8,12 @@ function About({setShowDecorativeTitle}) {
   }, [setShowDecorativeTitle]);
 
   return (
-    <div>
-      about
-    </div>
+    <section className={styles.About}>
+      <h1>About</h1>
+      <p>Take a virtual tour of some of England's literary sites.</p>
+
+      <p>Probject by Sheyna Watkins</p>
+    </section>
   )
 }
 

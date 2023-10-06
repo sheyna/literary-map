@@ -8,7 +8,6 @@ import DefaultPageLayout from '../../views/DefaultPageLayout/DefaultPageLayout';
 import {
   Route,
   Routes,
-  Link,
   BrowserRouter as Router
 } from "react-router-dom";
 import styles from './App.module.css';

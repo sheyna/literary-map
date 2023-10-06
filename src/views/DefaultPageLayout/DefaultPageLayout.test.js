@@ -1,10 +1,12 @@
 import ReactTestRenderer from 'react-test-renderer';
-import SiteHeader from  './SiteHeader';
+import DefaultPageLayout from  './DefaultPageLayout';
 
-describe('SiteHeader component', () => {
+describe('DefaultPageLayout component', () => {
   it('should match snapshot', () => {
     const component = ReactTestRenderer.create(
-      <SiteHeader />
+      <DefaultPageLayout>
+        <p>child</p>
+      </DefaultPageLayout>
     );
     expect(component.toJSON()).toMatchSnapshot();
   });

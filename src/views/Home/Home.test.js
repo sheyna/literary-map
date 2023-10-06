@@ -1,10 +1,10 @@
 import ReactTestRenderer from 'react-test-renderer';
-import SiteFooter from  './SiteFooter';
+import Home from  './Home';
 
 describe('SiteFooter component', () => {
   it('should match snapshot', () => {
     const component = ReactTestRenderer.create(
-      <SiteFooter />
+      <Home />
     );
     expect(component.toJSON()).toMatchSnapshot();
   });
