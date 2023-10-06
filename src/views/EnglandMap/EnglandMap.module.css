@@ -40,6 +40,7 @@
   }
   .introText {
     margin-right: 10%;
+    margin-top: 2.5rem;
   }
   section + .introText {
     display: none;

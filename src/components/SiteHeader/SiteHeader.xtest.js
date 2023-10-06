@@ -1,10 +1,11 @@
 import ReactTestRenderer from 'react-test-renderer';
-import SiteFooter from  './SiteFooter';
+import SiteHeader from  './SiteHeader';
 
-describe('SiteFooter component', () => {
+// TODO, update this test
+describe('SiteHeader component', () => {
   it('should match snapshot', () => {
     const component = ReactTestRenderer.create(
-      <SiteFooter />
+      <SiteHeader />
     );
     expect(component.toJSON()).toMatchSnapshot();
   });

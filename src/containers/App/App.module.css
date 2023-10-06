@@ -8,16 +8,3 @@ body, html {
 	flex-direction: column;
 	min-height: 100%;
 }
-
-.mainBody {
-  display: flex;
-  flex-direction: column;
-  flex: 2 0 auto;
-  overflow: auto;
-}
-
-@media screen and (min-width: 1025px) {
-  .mainBody {
-    flex-direction: row;
-  }
-}
