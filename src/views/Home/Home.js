@@ -2,9 +2,9 @@ import { useEffect } from 'react';
 import EnglandMap from '../EnglandMap/EnglandMap';
 import styles from './Home.module.css';
 
-function Home({setShowDecorativeTitle}) {
+function Home({ setShowDecorativeTitle }) {
 
-  useEffect(function() {
+	useEffect(function() {
     setShowDecorativeTitle(true);
   }, [setShowDecorativeTitle]);
 

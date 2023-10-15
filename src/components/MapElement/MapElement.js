@@ -8,11 +8,11 @@ function MapElement(props) {
 	return (
 		<div className={styles.MapElement}>
 			<img src={mapOfEngland} alt="Map of England"/>
-			{locations.map((location, idx) => {
+			{locations.map((location) => {
 				return (
 					<MapLocationPoint 
 						location={location} 
-						key={idx} 
+						key={location.locationId} 
 						openInfoBox={props.openInfoBox}
 					/>
 				);

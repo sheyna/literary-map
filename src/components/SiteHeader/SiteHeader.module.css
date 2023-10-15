@@ -29,13 +29,17 @@
 .SiteHeader menu li > a {
   text-decoration: none;
   padding: .5rem;
-  border-bottom: 0.9rem solid transparent;
+  border-bottom: 1rem solid transparent;
 }
 
 .SiteHeader menu a:hover {
   color: #bd4089;
   cursor: pointer;
   border-color: #bd4089;
+}
+
+.SiteHeader menu nav{
+  display: flex;
 }
 
 .SiteHeader h1 {
@@ -59,6 +63,22 @@
   margin: .5rem 0 0;
   padding: .5rem;
   display: inline-block;
+}
+
+.SiteHeader button {
+  background-color: #bd4089;
+  color: white;
+  border: 2px solid #bd4089;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 1rem 0 0;
+  transition: background-color border 2s ease,
+}
+
+.SiteHeader button:hover {
+  background-color: #d88bb8;
+  border: 2px solid #d88bb8;
+  cursor: pointer;
 }
 
 .SiteHeader ul {

@@ -19,11 +19,15 @@ function App() {
     <Router>
       <div className={styles.App}>
         <SiteHeader showDecorativeTitle={showDecorativeTitle}/>
-          <Routes>
-            <Route exact path="/" element={<Home setShowDecorativeTitle={setShowDecorativeTitle}/>} />
-            <Route path="/about" element={<DefaultPageLayout><About setShowDecorativeTitle={setShowDecorativeTitle}/></DefaultPageLayout>} />
-            <Route path="/list" element={<DefaultPageLayout><List setShowDecorativeTitle={setShowDecorativeTitle}/></DefaultPageLayout>} />
-          </Routes>
+        <Routes>
+          <Route exact path="/" element={
+            <Home
+              setShowDecorativeTitle={setShowDecorativeTitle}
+            />
+          } />
+          <Route path="/about" element={<DefaultPageLayout><About setShowDecorativeTitle={setShowDecorativeTitle}/></DefaultPageLayout>} />
+          <Route path="/list" element={<DefaultPageLayout><List setShowDecorativeTitle={setShowDecorativeTitle}/></DefaultPageLayout>} />
+        </Routes>
         <SiteFooter />
       </div>
     </Router>

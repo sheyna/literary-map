@@ -1,14 +1,21 @@
-import { useEffect } from 'react';
-import locations from '../../locations.json';
+import { useEffect, useState } from 'react';
+import getLocationData from '../../modules/getLocationData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPin, faPenNib } from '@fortawesome/free-solid-svg-icons'; // alt faThumbTack
 import styles from './List.module.css';
 
+
 function List({setShowDecorativeTitle}) {
+  const [ locations, setLocations ] = useState([]);
+	const [ isLoading, setIsLoading ] = useState(false);
 
   useEffect(function() {
     setShowDecorativeTitle(false);
   }, [setShowDecorativeTitle]);
+
+  useEffect(function(){
+		getLocationData(setIsLoading, setLocations);
+	}, []);
 
   return (
     <section className={styles.List}>
