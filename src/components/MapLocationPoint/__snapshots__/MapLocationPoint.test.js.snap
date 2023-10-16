@@ -6,14 +6,27 @@ exports[`MapElement component should match snapshot 1`] = `
   onClick={[Function]}
   style={
     Object {
-      "left": "49%",
-      "top": "30%",
+      "left": "48%",
+      "top": "38%",
     }
   }
 >
-  <img
-    alt="Brontë Country"
-    src="img/brontes-thumb.png"
-  />
+  <svg
+    aria-hidden="true"
+    className="svg-inline--fa fa-location-pin locationPin"
+    data-icon="location-pin"
+    data-prefix="fas"
+    focusable="false"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 384 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>
 </div>
 `;

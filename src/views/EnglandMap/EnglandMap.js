@@ -1,34 +1,22 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import PropTypes from 'prop-types';
+
+// components
 import MapElement from '../../components/MapElement/MapElement';
 import InfoBox from '../../components/InfoBox/InfoBox';
-// import locations from '../../locations.json';
-import getLocationData from '../../modules/getLocationData';
-import { useAuth0 } from "@auth0/auth0-react";
-// import axios from 'axios';
-import favoriteModule from '../../modules/favoritesModule';
+import Loader from '../../components/Loader/Loader';
+
+// CSS
 import styles from './EnglandMap.module.css';
 
-function EnglandMap() {
+function EnglandMap({locations, favorites, setFavorites, isLoadingLocal}) {
 	const [ infoBoxOpen, setInfoBoxOpen ] = useState(false);
 	const [ infoBoxLocation, setInfoBoxLocation ] = useState({});
-	const [ locations, setLocations ] = useState([]);
-	const [ isLoadingLocal, setIsLoadingLocal ] = useState(false);
-
-	const [ favorites, setFavorites ] = useState([]);
-  const { isAuthenticated, isLoading, getIdTokenClaims, user } = useAuth0();
-
-	useEffect(function(){
-    favoriteModule.getFavorites(setFavorites, isAuthenticated, getIdTokenClaims);
-	}, [isAuthenticated]);
-
+	
 	function openInfoBox (open, location) {
 		setInfoBoxOpen(open);
 		setInfoBoxLocation(location);
 	}
-
-	useEffect(function(){
-		getLocationData(setIsLoadingLocal, setLocations);
-	}, []);
 	
 	return (
 		<>
@@ -37,6 +25,10 @@ function EnglandMap() {
 					locations={locations} 
 					openInfoBox={openInfoBox}
 				/>
+				{
+					isLoadingLocal
+						&& <Loader />
+				}
 			</div>
 			<div className={styles.pageContents}>
 				{infoBoxOpen
@@ -45,8 +37,6 @@ function EnglandMap() {
 						key={infoBoxLocation.title} 
 						openInfoBox={openInfoBox}
 						favorites={favorites}
-						addFavorites={favoriteModule.addFavorites}
-						deleteFavorites={favoriteModule.deleteFavorites}
 						setFavorites={setFavorites}
 					/> 
 				}
@@ -56,5 +46,12 @@ function EnglandMap() {
 	);
 	
 }
+
+EnglandMap.propTypes = {
+	locations: PropTypes.arrayOf(PropTypes.shape),
+	favorites: PropTypes.arrayOf(PropTypes.shape),
+	setFavorites: PropTypes.func,
+	isLoadingLocal: PropTypes.bool
+};
 
 export default EnglandMap;

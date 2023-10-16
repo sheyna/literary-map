@@ -4,20 +4,50 @@ import {
 import LoginButton from "../LoginButton/LoginButton";
 import LogoutButton from "../LogoutButton/LogoutButton";
 import { useAuth0 } from "@auth0/auth0-react";
+import PropTypes from 'prop-types';
+
 import styles from './SiteHeader.module.css';
 
 function SiteHeader({ showDecorativeTitle }) {
-	const { isAuthenticated, isLoading } = useAuth0();
+	const { isAuthenticated } = useAuth0();
 
 	return (
 		<header className={styles.SiteHeader}>
 			<menu>
-				<h2><Link to="/" style={{ textDecoration: 'none' }}>LIT</Link></h2>
+				<h2>
+					<Link
+						to="/"
+						style={{ textDecoration: 'none' }}
+					>
+						LIT
+					</Link>
+				</h2>
 				<nav>
 					<ul>
-						<li><Link to="/" style={{ textDecoration: 'none' }}>Home</Link></li>
-						<li><Link to="/about" style={{ textDecoration: 'none' }}>About</Link></li>
-						<li><Link to="/list" style={{ textDecoration: 'none' }}>List</Link></li>
+						<li>
+							<Link
+								to="/"
+								style={{ textDecoration: 'none' }}
+							>
+								Home
+							</Link>
+						</li>
+						<li>
+							<Link
+								to="/list"
+								style={{ textDecoration: 'none' }}
+							>
+								{ isAuthenticated ? 'Favorites' : 'List' }
+							</Link>
+						</li>
+						<li>
+							<Link
+								to="/about"
+								style={{ textDecoration: 'none' }}
+							>
+								About
+							</Link>
+						</li>
 					</ul>
 					{
 						isAuthenticated 
@@ -36,5 +66,9 @@ function SiteHeader({ showDecorativeTitle }) {
 		</header>
 	)
 }
+
+SiteHeader.propTypes = {
+	showDecorativeTitle: PropTypes.bool
+};
 
 export default SiteHeader;

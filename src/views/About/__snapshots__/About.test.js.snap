@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SiteFooter component should match snapshot 1`] = `
+exports[`About component should match snapshot 1`] = `
 <section
   className="About"
 >

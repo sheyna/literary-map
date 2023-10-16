@@ -3,9 +3,8 @@ import { faLocationPin } from '@fortawesome/free-solid-svg-icons'; // alt faThum
 import styles from './MapLocationPoint.module.css';
 import PropTypes from 'prop-types';
 
-function MapLocationPoint(props) {
-	const {location} = props;
-	const {thumb, title, positionTop, positionLeft} = props.location;
+function MapLocationPoint({ location, openInfoBox }) {
+	const {thumb, title, positionTop, positionLeft} = location;
 	const pointStyles = {
 		top: positionTop + "%",
 		left: positionLeft + "%",
@@ -15,7 +14,7 @@ function MapLocationPoint(props) {
 			className={styles.MapLocationPoint} 
 			style={pointStyles}
 			onClick={() => {
-				props.openInfoBox(true, location);
+				openInfoBox(true, location);
 			}}
 		>
 			{ thumb ? <img src={"img/" + thumb} alt={title}/> : <FontAwesomeIcon className={styles.locationPin} icon={faLocationPin} /> }

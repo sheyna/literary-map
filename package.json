@@ -50,5 +50,10 @@
   "devDependencies": {
     "babel-plugin-named-exports-order": "^0.0.2",
     "webpack": "^5.88.2"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "axios": "axios/dist/node/axios.cjs"
+    }
   }
 }

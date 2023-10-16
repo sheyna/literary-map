@@ -1,54 +1,11 @@
-import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart, faXmark } from '@fortawesome/free-solid-svg-icons';
-import { useAuth0 } from "@auth0/auth0-react";
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import FavoriteIcon from '../FavoriteIcon/FavoriteIcon';
+
 import PropTypes from 'prop-types';
-import axios from 'axios';
 import styles from './InfoBox.module.css';
 
-
-function InfoBox({ infoBoxLocation, openInfoBox, favorites, addFavorites, deleteFavorites, setFavorites }) {
-	const { isAuthenticated, getIdTokenClaims } = useAuth0();
-	const [ showFavoriteToolTip, setShowFavoriteToolTip ] = useState(false);
-	const [ favIconHover, setFavIconHover ] = useState(false);
-	const [ isFavoritedLocation, setIsFavoritedLocation ] = useState(false);
-	const [ favLocationObj, setFavLocationObj ] = useState({})
-
-	useEffect(function() {
-		console.log(favorites);
-		const favoriteLocationObj = favorites.find(loc => loc.locationId === infoBoxLocation.locationId);
-		console.log(favoriteLocationObj);
-		const favorited = favoriteLocationObj ? true : false;
-		setFavLocationObj(favoriteLocationObj);
-		setIsFavoritedLocation(favorited);
-	}, [favorites]);
-
-	async function handleFavoriteChange() {
-		// && favorited
-		if (isAuthenticated) {
-			if (isFavoritedLocation) {
-				setIsFavoritedLocation(false);
-				deleteFavorites(favLocationObj._id, setFavorites, isAuthenticated, getIdTokenClaims, favorites);
-			} else {
-				setIsFavoritedLocation(true);
-				addFavorites(infoBoxLocation, setFavorites, isAuthenticated, getIdTokenClaims, favorites);
-			} 
-		} else {
-			setShowFavoriteToolTip((show) => !show);
-		}
-	}
-
-	// Re:hover inline CSS:
-	// https://stackoverflow.com/questions/28365233/inline-css-styles-in-react-how-to-implement-ahover
-
-	function toggleHover() {
-		setFavIconHover((tog) => !tog);
-	}
-
-	const favoriteIconStyles = {
-		color: favIconHover ? '#d88bb8' : isFavoritedLocation ? '#bd4089' : 'gray',
-		transition: 'color 1s ease',
-	};
+function InfoBox({ infoBoxLocation, openInfoBox, favorites,setFavorites }) {
 
 	return (
 		<section className={styles.InfoBox}>
@@ -56,25 +13,11 @@ function InfoBox({ infoBoxLocation, openInfoBox, favorites, addFavorites, delete
 			<h3>{infoBoxLocation.title}</h3>
 			<p>{infoBoxLocation.townName}</p>
 			<menu className={styles.menu}>
-				<div
-					onClick={handleFavoriteChange}
-				>
-					<FontAwesomeIcon
-						className={`${styles.menuIcon} ${styles.favIcon}`}
-						style={favoriteIconStyles}
-						icon={faHeart}
-						onMouseEnter={toggleHover}
-						onMouseLeave={toggleHover}
-					/>
-					{
-						showFavoriteToolTip
-							&& <div className={styles.tooltip}>
-								<div className={styles.box}>
-									<p>Please login to favorite</p>
-								</div>
-							</div>
-					}
-				</div>
+				<FavoriteIcon
+					locationInfo={infoBoxLocation}
+					favorites={favorites}
+					setFavorites={setFavorites}
+				/>
 				<div 
 					className={styles.close}
 					onClick={() => {
@@ -117,6 +60,8 @@ InfoBox.propTypes = {
 		bodyText: PropTypes.string,
 	}),
 	openInfoBox: PropTypes.func,
+	favorites: PropTypes.array,
+	setFavorites: PropTypes.func
 };
 
 export default InfoBox;
