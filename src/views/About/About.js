@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import PropTypes from 'prop-types';
+
 import styles from './About.module.css';
 
 function About({setShowDecorativeTitle}) {
@@ -16,5 +18,9 @@ function About({setShowDecorativeTitle}) {
     </section>
   )
 }
+
+About.propTypes = {
+	setShowDecorativeTitle: PropTypes.func
+};
 
 export default About

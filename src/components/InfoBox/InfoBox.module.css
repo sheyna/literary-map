@@ -17,7 +17,7 @@
 
 .InfoBox {
 	background-color: #FEFAF5;
-	padding: .8rem;
+	padding: 1.5rem .8rem .8rem .8rem;
 	position: absolute;
 	top: 9rem;
 	left: 7%;
@@ -45,7 +45,7 @@
 	margin: 1rem 0 0;
 	flex-direction: column;
 	animation-name: slowDisplay;
-  	animation-duration: 4s;
+  animation-duration: 4s;
 }
 
 .infoBoxLayout .infoBoxImg + .infoBoxText {
@@ -60,11 +60,26 @@
 }
 
 .close {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: .8rem;
+	color: gray;
+}
+
+.menuIcon {
+	font-size: 1.5rem;
 	cursor: pointer;
+}
+
+.menu {
+	position: absolute;
+ 	right: 1rem;
+	top: 1rem;
+	display: flex;
+	margin: 0;
+	width: 120px;
+}
+
+.menu > div {
+	margin: 0 .5rem;
+	position: relative;
 }
 
 @media screen and (min-width: 380px) {

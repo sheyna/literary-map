@@ -1,20 +1,32 @@
-import styles from './InfoBox.module.css';
-import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import FavoriteIcon from '../FavoriteIcon/FavoriteIcon';
 
-function InfoBox({ infoBoxLocation, openInfoBox }) {
+import PropTypes from 'prop-types';
+import styles from './InfoBox.module.css';
+
+function InfoBox({ infoBoxLocation, openInfoBox, favorites,setFavorites }) {
 
 	return (
 		<section className={styles.InfoBox}>
+			
 			<h3>{infoBoxLocation.title}</h3>
 			<p>{infoBoxLocation.townName}</p>
-			<div 
-				className={styles.close}
-				onClick={() => {
-					openInfoBox(false, {});
-				}}
-			>
-				<i class="fas fa-times"></i>
-			</div>
+			<menu className={styles.menu}>
+				<FavoriteIcon
+					locationInfo={infoBoxLocation}
+					favorites={favorites}
+					setFavorites={setFavorites}
+				/>
+				<div 
+					className={styles.close}
+					onClick={() => {
+						openInfoBox(false, {});
+					}}
+				>
+					<FontAwesomeIcon className={styles.menuIcon} icon={faXmark} />
+				</div>
+			</menu>
 			<div className={styles.infoBoxLayout}>
 				{ 
 					infoBoxLocation.image 
@@ -48,6 +60,8 @@ InfoBox.propTypes = {
 		bodyText: PropTypes.string,
 	}),
 	openInfoBox: PropTypes.func,
+	favorites: PropTypes.array,
+	setFavorites: PropTypes.func
 };
 
 export default InfoBox;

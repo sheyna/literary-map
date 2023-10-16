@@ -5,7 +5,9 @@ import SiteHeader from  './SiteHeader';
 describe('SiteHeader component', () => {
   it('should match snapshot', () => {
     const component = ReactTestRenderer.create(
-      <SiteHeader />
+      <SiteHeader 
+        showDecorativeTitle={true}
+      />
     );
     expect(component.toJSON()).toMatchSnapshot();
   });

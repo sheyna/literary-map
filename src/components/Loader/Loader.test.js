@@ -1,14 +1,10 @@
 import ReactTestRenderer from 'react-test-renderer';
-import About from  './About';
+import Loader from  './Loader';
 
-const mockFn = jest.fn();
-
-describe('About component', () => {
+describe('Loader component', () => {
   it('should match snapshot', () => {
     const component = ReactTestRenderer.create(
-      <About
-        setShowDecorativeTitle={mockFn}
-      />
+      <Loader />
     );
     expect(component.toJSON()).toMatchSnapshot();
   });

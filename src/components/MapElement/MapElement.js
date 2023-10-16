@@ -3,17 +3,16 @@ import MapLocationPoint from '../MapLocationPoint/MapLocationPoint';
 import styles from "./MapElement.module.css";
 import PropTypes from 'prop-types';
 
-function MapElement(props) {
-	const {locations} = props;
+function MapElement({ locations, openInfoBox }) {
 	return (
 		<div className={styles.MapElement}>
 			<img src={mapOfEngland} alt="Map of England"/>
-			{locations.map((location, idx) => {
+			{locations.map((location) => {
 				return (
 					<MapLocationPoint 
 						location={location} 
-						key={idx} 
-						openInfoBox={props.openInfoBox}
+						key={location.locationId} 
+						openInfoBox={openInfoBox}
 					/>
 				);
 			})}
